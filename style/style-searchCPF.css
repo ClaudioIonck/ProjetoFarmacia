@@ -7,3 +7,57 @@
 
 
 }
+
+.container {
+
+    font-size: 0;
+
+}
+
+#navBar{
+
+    background-color: beige;
+
+    height: 135px;
+}
+
+#content{
+
+    background-color: #9305F2;
+
+    height: 600px;
+    
+}
+
+#maincontent{
+/*
+    width: 1250px;
+    height: 1250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+*/
+}
+
+#nameinsert{
+/*
+    width: 80%;
+    height: 55px;
+    display: flex;
+    */
+}
+
+#buttonsearch{
+/*
+    width: 8%;
+    height: 55px;
+    display: flex;
+    padding: 17px;
+    */
+}
+
+#cpf{
+
+    margin: center;
+}
