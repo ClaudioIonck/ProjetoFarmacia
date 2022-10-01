@@ -14,6 +14,13 @@
 
 }
 
+.container2{
+
+    margin: 0 auto;
+
+
+}
+
 #navBar{
 
     background-color: beige;
@@ -30,14 +37,9 @@
 }
 
 #maincontent{
-/*
-    width: 1250px;
-    height: 1250px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-*/
+
+    
+
 }
 
 #nameinsert{
@@ -59,5 +61,5 @@
 
 #cpf{
 
-    margin: center;
+    
 }
