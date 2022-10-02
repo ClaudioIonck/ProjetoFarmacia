@@ -11,7 +11,7 @@
 
 #navBar{
 
-    background-color: blue;
+    background-color:tomato;
 
     height: 135px;
 
@@ -22,21 +22,21 @@
     background-color: #9305F2;
     
     height: 600px;
-
-    padding: 0;
-
    
 }
 
 #main{
 
     background-color: green;
-
+    
     width: 1250px;
     height: 100%;
 
-    padding: 0;
+}
 
+#titleCPF{
+
+    background-color: aquamarine;
 
 }
 
@@ -44,9 +44,7 @@
 
     background-color: red;
 
-    width: 100%;
-
-    padding: 0;
+    /*align-items: center;*/    
 
 }
 
@@ -56,26 +54,46 @@
 
     width: 100%;
 
+    padding: 0;
+    margin: 0;
+
+    align-items: center;
+    
+
 }
 
-#cpfDiv{
+
+#cpfInput{
+
+    background-color: coral;
+
+    width: 95%;
+    
+    padding: 0;
+    margin: 0;
+
+    /*background-color: blue;*/
+
+    align-items: center;
+
+}
+
+#cpfInsert{
 
     width: 100%;
 
 }
 
-#cpfInput{
-
-    width: 800px; 
-    padding-top: 10px; 
-    /*background-color: blue;*/
-
-}
-
 #iconDiv{
 
-    margin: 0; 
-    padding: 0; 
-    padding-top: 10px; 
+
     background-color: pink;
+
+    width: 4%;
+    padding: 0;
+    margin: 0;
+
+
+    align-items: center;
+
 }
