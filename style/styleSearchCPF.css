@@ -1,0 +1,81 @@
+*{
+
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+#navBar{
+
+    background-color: blue;
+
+    height: 135px;
+
+}
+
+#mainBg{
+
+    background-color: #9305F2;
+    
+    height: 600px;
+
+    padding: 0;
+
+   
+}
+
+#main{
+
+    background-color: green;
+
+    width: 1250px;
+    height: 100%;
+
+    padding: 0;
+
+
+}
+
+#divBusca{
+
+    background-color: red;
+
+    width: 100%;
+
+    padding: 0;
+
+}
+
+#cpfDiv{
+
+    background-color: yellow;
+
+    width: 100%;
+
+}
+
+#cpfDiv{
+
+    width: 100%;
+
+}
+
+#cpfInput{
+
+    width: 800px; 
+    padding-top: 10px; 
+    /*background-color: blue;*/
+
+}
+
+#iconDiv{
+
+    margin: 0; 
+    padding: 0; 
+    padding-top: 10px; 
+    background-color: pink;
+}
