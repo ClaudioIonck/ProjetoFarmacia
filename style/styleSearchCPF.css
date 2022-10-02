@@ -37,12 +37,14 @@
 #titleCPF{
 
     background-color: aquamarine;
-
+    color: white;
 }
 
 #divBusca{
 
     background-color: red;
+
+    margin-top: 200px;
 
     /*align-items: center;*/    
 
@@ -53,13 +55,12 @@
     background-color: yellow;
 
     width: 100%;
-
     padding: 0;
     margin: 0;
 
+
     align-items: center;
     
-
 }
 
 
@@ -90,10 +91,14 @@
     background-color: pink;
 
     width: 4%;
-    padding: 0;
-    margin: 0;
+    padding: 010;
+    margin: 010;
 
 
     align-items: center;
 
+}
+
+.h1{
+    color: white;
 }
