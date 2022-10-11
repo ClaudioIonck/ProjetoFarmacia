@@ -49,7 +49,7 @@
 
 #divBusca{
 
-    margin-top: 100px;
+    margin-top: 50px;
 
     /*align-items: center;*/    
 
@@ -66,7 +66,7 @@
     
 }
 
-
+    /*div caixa de texto*/
 #nameInput{
 
     width: 100%;
@@ -74,18 +74,15 @@
     padding: 0;
     margin: 0;
 
-
-    /*background-color: blue;*/
-
     align-items: center;
 
 }
-
+    /*caixa de texto*/
 #nameInsert{
 
     width: 100%;
-    padding: 5px;
-    font-size: 26px;
+    padding: 1px;
+    font-size: 20px;
 
 }
 
