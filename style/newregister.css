@@ -49,7 +49,7 @@
 
 #divBusca{
 
-    margin-top: 200px;
+    margin-top: 100px;
 
     /*align-items: center;*/    
 
@@ -81,10 +81,10 @@
 
 }
 
-#cpfInsert{
+#nameInsert{
 
     width: 100%;
-    padding: 15px;
+    padding: 5px;
     font-size: 26px;
 
 }
