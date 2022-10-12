@@ -128,10 +128,16 @@
 }
 
 #h3{
-    width: 250px;
+    width: 285px;
     margin: 0px;
 }
 
 #testt{
     padding-top: 20px;
 }
+
+.input-group{
+    width: 615px;
+    margin-left: 0px;
+}
+
