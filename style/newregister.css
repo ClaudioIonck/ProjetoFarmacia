@@ -90,8 +90,8 @@
 #nameInsert{
 
     width: 100%;
-    padding: 1px;
-    font-size: 20px;
+    padding: 5px;
+    font-size: 15px;
 
 }
 
@@ -146,6 +146,9 @@
 .input-group{
     width: 615px;
     margin-left: 0px;
+
+
+
 }
 
 
