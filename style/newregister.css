@@ -203,3 +203,12 @@
 #arrumar{
     margin-top: 5px;
 }
+
+#borderRemedios{
+    border-width: 2px;
+    border-color: rgb(207, 207, 207);
+    border-style: solid;
+
+    border-radius: 20px;
+
+}
