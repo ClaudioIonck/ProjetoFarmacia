@@ -170,7 +170,7 @@
 }
 
 #classButton{
-    width: 190px;
+    width: 40px;
 
 }
 
@@ -184,4 +184,12 @@
 .container{
     display: flex;
     justify-content: center;
+}
+
+#divRemedios{
+    margin: 10px;
+}
+
+#arrumar{
+    margin-top: 5px;
 }
