@@ -141,6 +141,9 @@
     margin-left: 0px;
 }
 
+
+    /*divs remedio*/
+
 #textPrimary{
     width: 500px;
 }
@@ -149,5 +152,36 @@
     width: 250px;
 }
 
+#buttonPlus{
+    width: 40px;
 
+}
 
+    /*divs remedio*/
+
+    /*divs remedio text*/
+
+#class1{
+    width: 550px;
+}
+
+#class2{
+    width: 250px;
+}
+
+#classButton{
+    width: 190px;
+
+}
+
+    /*divs remedio text*/
+
+#buttonGiant{
+    width: 900px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
