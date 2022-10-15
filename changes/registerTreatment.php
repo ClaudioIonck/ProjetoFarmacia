@@ -113,7 +113,7 @@
 
                         <div id="nameInput" class="col-auto">
                             <h3>Nome do tratamento</h3>
-                            <input type="text" id="nameInsert"  class="form-control" placeholder="Digite o nome do tratamento">
+                            <input type="text" id="treatmentName"  class="form-control" placeholder="Digite o nome do tratamento">
                         </div>
 
                         <!--Primeira linha da div-->
@@ -121,11 +121,11 @@
                         <div class="row g-3">
                             <div class="col">
                                 <h3>CPF paciente</h3>
-                            <input type="text" id="nameInsert" class="form-control" placeholder="CPF do paciente" aria-label="First name">
+                            <input type="text" id="identificationNumber" class="form-control" placeholder="CPF do paciente" aria-label="First name">
                             </div>
                             <div class="col">
                                 <h3>Nome do paciente</h3>
-                            <input type="text" id="nameInsert" class="form-control" placeholder="Nome do paciente" aria-label="Last name">
+                            <input type="text" id="patientName" class="form-control" placeholder="Nome do paciente" aria-label="Last name">
                             </div>
                         </div>
 
@@ -138,7 +138,7 @@
                                     <h3 id="h3">Data de início</h3>
 
                                     <div class="md-form md-outline input-with-post-icon datepicker" id="data">
-                                        <input placeholder="Select date" type="date" id="example" class="form-control">
+                                        <input placeholder="Select date" type="date" id="treatmentStart" class="form-control">
                                     </div>
 
                                 </div>
@@ -148,7 +148,7 @@
                                 <h3 id="h3">Previsão de término</h3>
 
                                 <div class="md-form md-outline input-with-post-icon datepicker" id="data">
-                                    <input placeholder="Select date" type="date" id="example" class="form-control">
+                                    <input placeholder="Select date" type="date" id="treatmentEnd" class="form-control">
                                 </div>
 
                             </div>
@@ -157,7 +157,7 @@
                                 <h3 id="h3">Fases de tratamento</h3>
 
                                 <div class="md-form md-outline input-with-post-icon datepicker" id="data">
-                                    <input placeholder="" type="text" id="example" class="form-control">
+                                    <input placeholder="" type="text" id="quantityPhasesTreatments" class="form-control">
                                 </div>
 
                             </div>
@@ -167,17 +167,17 @@
                         <div class="row g-3">
                             <div class="col">
                                 <h3>Clinica responsável</h3>
-                            <input type="text" id="nameInsert" class="form-control" placeholder="CPF do paciente" aria-label="First name">
+                            <input type="text" id="clinicResponsible" class="form-control" placeholder="CPF do paciente" aria-label="First name">
                             </div>
                             <div class="col">
-                                <h3>Método responsável</h3>
-                            <input type="text" id="nameInsert" class="form-control" placeholder="Nome do paciente" aria-label="Last name">
+                                <h3>Médico responsável</h3>
+                            <input type="text" id="professionalResponsible" class="form-control" placeholder="Nome do paciente" aria-label="Last name">
                             </div>
                         </div>
 
                         
                         <div class="input-group">
-                            <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                            <input type="file" class="form-control" id="fileAnexed" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                         </div>
 
                         <!--Remedios-->
@@ -193,13 +193,13 @@
                                 <div class="form-group">
 
                                     <label>Nome remédio: </label>
-                                    <input type="text" name="nomeRemedio[]" id="nomeRemedio" placeholder="Nome do remédio"/>
+                                    <input type="text" name="remedyName[]" id="remedyName" placeholder="Nome do remédio"/>
 
                                     <label>Gramagem remédio: </label>
-                                    <input type="number" step="0.01" value="0.00" name="gramagemRemedio[]" id="gramagemRemedio" placeholder="00.00"/>
+                                    <input type="number" step="0.01" value="0.00" name="remedyMg[]" id="remedyMg" placeholder="00.00"/>
 
                                     <label>Quantidade: </label>
-                                    <input type="text" name="qntRemedio[]" id="qntRemedio" placeholder="Quantidade na caixa"/>
+                                    <input type="text" name="remedyQuantity[]" id="remedyQuantity" placeholder="Quantidade na caixa"/>
 
                                     <button type="button" onclick="adicionarCampo()">+</button>
 
