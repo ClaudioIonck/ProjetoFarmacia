@@ -1,5 +1,6 @@
 
 <?php 
+/*
 
 session_start();
 
@@ -14,7 +15,7 @@ if(isset($_SESSION['idProfessional']) && !empty($_SESSION['idProfessional'])){
     header('Location: ../login/professionalLogin.php');
 
 }
-
+*/
 ?>
 
 
@@ -69,7 +70,7 @@ if(isset($_SESSION['idProfessional']) && !empty($_SESSION['idProfessional'])){
             </li>
     
             <li class="nav-item">
-            <a class="nav-link" id="nav-link-active" href="registerTreatment.php">Tratamentos</a>
+            <a class="nav-link" id="nav-link-active" href="../listTreatments/listTreatments.php">Tratamentos</a>
             </li>
     
             <li class="nav-item">
@@ -91,7 +92,7 @@ if(isset($_SESSION['idProfessional']) && !empty($_SESSION['idProfessional'])){
             </a>
 
             <li class="nav-item">
-                <a class="nav-link" id="showUserName"> <strong> <?php echo $professionalUserName; ?> </strong> </a>
+                <a class="nav-link" id="showUserName"> <strong> <?php /*echo $professionalUserName; */?> </strong> </a>
             </li>
 
             <li class="nav-item-end">
@@ -263,7 +264,7 @@ if(isset($_SESSION['idProfessional']) && !empty($_SESSION['idProfessional'])){
 
                         <div class="col-auto">
 
-                            <button type="button" class="btn btn-success"  id="buttonGiant" >Cadastrar</button>
+                            <button type="button" class="btn btn-success"  id="buttonRegister" name="buttonRegister" >Cadastrar</button>
                         
                         </div>
                     
@@ -277,7 +278,14 @@ if(isset($_SESSION['idProfessional']) && !empty($_SESSION['idProfessional'])){
 
     </div>
 
+    <footer>
+
+        <a href="../../../actions/login/professional/professionalLogOut.php">Sair</a>
+
+    </footer>
+
     <script src="script/cadastrarTratamento/scriptTratamento.js"></script>
+    
 
 
 
