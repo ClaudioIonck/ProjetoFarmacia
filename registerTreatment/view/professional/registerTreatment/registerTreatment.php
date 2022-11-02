@@ -203,10 +203,11 @@ if(isset($_SESSION['idProfessional']) && !empty($_SESSION['idProfessional'])){
 
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                            <label class="form-check-label" for="flexCheckIndeterminate">
-                                Indeterminate checkbox
-                            </label>
+                            <p class="form-check-label" for="flexCheckIndeterminate">
+                                Encerrar tratamento automaticamente
+                            </p>
                         </div>    
+                        test
 
                     </div>
 
