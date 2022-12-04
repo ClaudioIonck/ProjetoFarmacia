@@ -1,4 +1,4 @@
-# ProjetoFarmacia
+# ProjetoFarmacia V1.0
 
 
 Link Github: https://github.com/ClaudioIonck/ProjetoFarmacia
