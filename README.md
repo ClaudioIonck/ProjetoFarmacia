@@ -2,6 +2,7 @@
 
 
 Link Github: https://github.com/ClaudioIonck/ProjetoFarmacia
+V1.0
 
 
 ## Integrantes
